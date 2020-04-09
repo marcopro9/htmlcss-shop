@@ -8,13 +8,11 @@
 
 /* struttura */
 .products-list{
-  position: relative;
   margin-left: 5px;
   margin-top: 5px;
 }
 .products-row{
   list-style-type: none;
-  position: relative;
   margin-bottom: 50px;
 }
 .single-product1, .single-product2, .single-product3{
