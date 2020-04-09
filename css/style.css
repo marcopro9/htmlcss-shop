@@ -1,0 +1,36 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fine reset */
+
+/* struttura */
+.products-list{
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.products-row{
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 50px;
+}
+.single-product1, .single-product2, .single-product3{
+  display: inline-block;
+  position: relative;
+}
+.sale-green, .sale-red{
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  }
+.sale-green{
+  background-color: green;
+}
+.sale-red{
+  background-color: red;
+  left:270px;
+}
+/* fine struttura */
