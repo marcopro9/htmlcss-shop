@@ -3,10 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 /* fine reset */
 
-/* struttura */
+/* stile main content */
 .products-list{
   margin-left: 5px;
   margin-top: 5px;
@@ -15,7 +16,7 @@
   list-style-type: none;
   margin-bottom: 50px;
 }
-.single-product1, .single-product2, .single-product3{
+.single-product{
   display: inline-block;
   position: relative;
 }
@@ -31,4 +32,15 @@
   background-color: red;
   left:270px;
 }
-/* fine struttura */
+.heart{
+  font-size: 25px;
+  position: absolute;
+  bottom: 15px;
+  left: 150px;
+  color: red;
+  display: none;
+}
+.products-row .single-product:hover .heart{
+  display: block;
+}
+/* fine stile main content */
